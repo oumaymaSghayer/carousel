@@ -1,0 +1,36 @@
+.content {
+  height: 100%;
+}
+.description {
+  font-size: small;
+  color: gray;
+}
+.rounded-pill {
+  width: 150px;
+}
+.card {
+  height: 500px;
+  width: 300px;
+  margin: 10px;
+  -webkit-box-shadow: 2px 6px 5px 0px rgba(156, 154, 156, 1);
+  -moz-box-shadow: 2px 6px 5px 0px rgba(156, 154, 156, 1);
+  box-shadow: 2px 6px 5px 0px rgba(156, 154, 156, 1);
+  padding: 10px;
+}
+.my-slider {
+  width: 250px;
+  height: 350px;
+}
+
+.slick-dots li button:before {
+  font-size: 10px !important;
+  line-height: 10px !important;
+}
+
+img {
+  height: 150px;
+  width: 200px;
+}
+.imageWrapper {
+  border-radius: 20%;
+}

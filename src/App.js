@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 //import "./Dark.css";
-import Screen from "./components/myscreen/Screen";
+import Shopify from "./components/shopify/Shopify";
 function App() {
   const [darkMode, setDarkMode] = useState(false);
 
@@ -11,7 +11,8 @@ function App() {
   };
   return (
     <div className="App">
-      <Screen updateTheme={(val) => getTheme(val)} />
+      <Shopify />
+      {/**<Screen updateTheme={(val) => getTheme(val)} /> */}
     </div>
   );
 }
